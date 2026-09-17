@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+# Pinned: newer Ubuntu ships Clang 21, which cannot compile the pinned fmt 11.0.2.
+FROM ubuntu:24.04
 
 RUN apt-get update --fix-missing
 
