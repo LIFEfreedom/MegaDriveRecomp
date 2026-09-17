@@ -1,0 +1,18 @@
+# build outputs
+build/
+*/build/
+compile_commands.json
+
+# recompiler output
+output/
+
+# ROM images
+*.gen
+*.bin
+*.md5
+
+# editor / OS
+.cache/
+.vscode/
+.idea/
+.DS_Store
